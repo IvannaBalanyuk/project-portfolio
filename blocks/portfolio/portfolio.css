@@ -1,7 +1,6 @@
 .portfolio {
-  grid-area: portfolio;
   width: 100%;
-  padding: 100px 250px;
+  padding: 100px 0;
   box-sizing: border-box;
   background-color: #F6F6F6;
 }

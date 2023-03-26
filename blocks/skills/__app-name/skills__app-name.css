@@ -1,6 +1,8 @@
 .skills__app-name {
   display: block;
-  width: 90px;
+  width: 55%;
+  max-width: 90px;
+  min-width: 78px;
   aspect-ratio: 1/1;
   margin: 0;
   padding: 20px 0 0;

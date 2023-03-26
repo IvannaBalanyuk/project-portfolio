@@ -1,6 +1,6 @@
 .intro__description {
+  padding: 0 20px;
   grid-area: description;
-  justify-self: center;
 
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 .skills {
-  grid-area: skills;
   width: 100%;
   padding: 90px 0 110px;
+  box-sizing: border-box;
 }

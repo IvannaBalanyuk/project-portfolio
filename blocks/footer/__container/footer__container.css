@@ -1,7 +1,4 @@
-.skills__box {
-  width: 20%;
-  max-width: 166px;
-
+.footer__container {
   display: flex;
   flex-direction: column;
   align-items: center;

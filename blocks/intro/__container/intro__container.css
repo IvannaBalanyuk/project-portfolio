@@ -1,0 +1,10 @@
+.intro__container {
+  display: grid;
+  grid-template-columns: 3fr 4fr 1fr;
+  grid-template-rows: repeat(2, max-content);
+  grid-template-areas:
+    "title description lang-list"
+    "image image image";
+  row-gap: 30px;
+  align-items: center;
+}

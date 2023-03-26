@@ -1,0 +1,10 @@
+.about-me__container {
+  max-width: 585px;
+  padding: 120px 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me__container {
+    width: 90%;
+  }
+}

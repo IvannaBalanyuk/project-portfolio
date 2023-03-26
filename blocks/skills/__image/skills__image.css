@@ -1,6 +1,8 @@
 .skills__image {
   display: block;
-  width: 90px;
+  width: 55%;
+  max-width: 90px;
+  min-width: 60px;
   aspect-ratio: 1/1;
 
   object-fit: contain;
