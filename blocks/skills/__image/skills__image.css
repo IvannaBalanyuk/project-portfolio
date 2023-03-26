@@ -1,0 +1,8 @@
+.skills__image {
+  display: block;
+  width: 90px;
+  aspect-ratio: 1/1;
+
+  object-fit: contain;
+  object-position: center;
+}

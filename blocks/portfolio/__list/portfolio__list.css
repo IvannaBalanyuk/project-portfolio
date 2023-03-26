@@ -1,0 +1,4 @@
+.portfolio__list {
+  flex-direction: column;
+  row-gap: 99px;
+}

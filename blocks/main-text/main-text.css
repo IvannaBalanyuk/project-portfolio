@@ -1,0 +1,11 @@
+.main-text {
+  display: block;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+}

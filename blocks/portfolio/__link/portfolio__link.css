@@ -1,0 +1,16 @@
+.portfolio__link {
+  display: block;
+  color: #070707;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+
+  cursor: pointer;
+  transition: 600ms;
+}
+
+.portfolio__link:hover {
+  opacity: .6;
+}

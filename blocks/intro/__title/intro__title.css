@@ -1,0 +1,11 @@
+.intro__title {
+  grid-area: title;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 58px;
+}

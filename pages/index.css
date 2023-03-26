@@ -1,0 +1,53 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+
+@import url('../blocks/list/list.css');
+
+@import url('../blocks/link/link.css');
+@import url('../blocks/link/_state/link_state_active.css');
+
+@import url('../blocks/section-title/section-title.css');
+
+@import url('../blocks/main-text/main-text.css');
+
+@import url('../blocks/stars-box/stars-box.css');
+@import url('../blocks/stars-box/_value/stars-box_value_three.css');
+@import url('../blocks/stars-box/_value/stars-box_value_four.css');
+
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__link/header__link.css');
+
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__description/intro__description.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__lang-list/intro__lang-list.css');
+@import url('../blocks/intro/__link/intro__link.css');
+@import url('../blocks/intro/__link/_border/intro__link_border_left.css');
+@import url('../blocks/intro/__image/intro__image.css');
+
+@import url('../blocks/about-me/about-me.css');
+@import url('../blocks/about-me/__title/about-me__title.css');
+@import url('../blocks/about-me/__text-box/about-me__text-box.css');
+
+@import url('../blocks/skills/skills.css');
+@import url('../blocks/skills/__title/skills__title.css');
+@import url('../blocks/skills/__subtitle/skills__subtitle.css');
+@import url('../blocks/skills/__box/skills__box.css');
+@import url('../blocks/skills/__image/skills__image.css');
+@import url('../blocks/skills/__app-name/skills__app-name.css');
+
+@import url('../blocks/portfolio/portfolio.css');
+@import url('../blocks/portfolio/__title/portfolio__title.css');
+@import url('../blocks/portfolio/__list/portfolio__list.css');
+@import url('../blocks/portfolio/__box/portfolio__box.css');
+@import url('../blocks/portfolio/__image/portfolio__image.css');
+@import url('../blocks/portfolio/__link/portfolio__link.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__title/footer__title.css');
+@import url('../blocks/footer/__subtitle/footer__subtitle.css');
+@import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__social-text/footer__social-text.css');

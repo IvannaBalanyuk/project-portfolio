@@ -1,0 +1,9 @@
+.intro__image {
+  grid-area: image;
+  width: 100%;
+  height: 387px;
+
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}

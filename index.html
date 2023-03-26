@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Портфолио</title>
+  <link href="./pages/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="page">
+  <header class="header">
+    <ul class="list">
+      <li><a class="link link_state_active header__link" href="#home">Home</a></li>
+      <li><a class="link header__link" href="#about-me">About me</a></li>
+      <li><a class="link header__link" href="#skills">Skills</a></li>
+      <li><a class="link header__link" href="#portfolio">Portfolio</a></li>
+      <li><a class="link header__link" href="#contacts">Contacts</a></li>
+    </ul>
+  </header>
+
+  <section class="intro" aria-label="Основная информация" id="home">
+    <h1 class="intro__title">
+      <span>Denis</span>
+      <span>Novik</span>
+    </h1>
+    <p class="intro__description">
+      <span class="main-text intro__text">UX | UI designer</span>
+      <span class="main-text intro__text">24 years old, Minsk</span>
+    </p>
+    <ul class="list intro__lang-list">
+      <li><a class="intro__link link" href="#">ru</a></li>
+      <li><a class="intro__link link link_state_active intro__link_border_left" href="#">eng</a></li>
+    </ul>
+    <img
+      class="intro__image"
+      src="./images/intro-image-cut.jpg"
+      srcset="
+        ./images/intro-image.jpg 683w,
+        ./images/intro-image-cut.jpg 1364w"
+      sizes="
+        (max-width: 425px) 375px,
+        945px"
+      alt="Фото автора портфолио"
+    >
+  </section>
+
+  <section class="about-me" id="about-me">
+    <h2 class="section-title about-me__title">About me</h2>
+    <div class="about-me__text-box">
+      <p class="main-text">Hi, I'm Denis – UX/UI designer from Minsk. I'm&NonBreakingSpace;interested&NonBreakingSpace;in&NonBreakingSpace;design and everything connected with it.</p>
+      <p class="main-text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+      <p class="main-text">Ready to implement excellent projects with&NonBreakingSpace;wonderful&NonBreakingSpace;people.</p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="section-title skills__title">Skills</h2>
+    <p class="main-text skills__subtitle">I work in such programs as</p>
+    <ul class="list">
+      <li class="skills__box">
+        <img class="skills__image" src="./images/adobe-photoshop.png" alt="Логотип Adobe Photoshop">
+        <p class="skills__app-name">Adobe Photoshop</p>
+        <div class="stars-box stars-box_value_four"></div>
+      </li>
+
+      <li class="skills__box">
+        <img class="skills__image" src="./images/adobe-illustrator.png" alt="Логотип Adobe Illustrator">
+        <p class="skills__app-name">Adobe Illustrator</p>
+        <div class="stars-box stars-box_value_three"></div>
+      </li>
+
+      <li class="skills__box">
+        <img class="skills__image" src="./images/adobe-after-effects.png" alt="Логотип Adobe After Effects">
+        <p class="skills__app-name">Adobe After Effects</p>
+        <div class="stars-box stars-box_value_four"></div>
+      </li>
+
+      <li class="skills__box">
+        <img class="skills__image" src="./images/figma.png" alt="Логотип Figma">
+        <p class="skills__app-name">Figma</p>
+        <div class="stars-box stars-box_value_four"></div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="section-title portfolio__title">Portfolio</h2>
+    <ul class="list portfolio__list">
+      <li class="portfolio__box">
+        <img class="portfolio__image" src="./images/portfolio-image1.png" alt="Скрин домашней страницы Online fashion store">
+        <a class="portfolio__link" href="#">Online fashion store - Homepage</a>
+      </li>
+
+      <li class="portfolio__box">
+        <img class="portfolio__image" src="./images/portfolio-image2.png" alt="Скрин домашней страницы Reebok Store">
+        <a class="portfolio__link" href="#">Reebok Store - Concept</a>
+      </li>
+
+      <li class="portfolio__box">
+        <img class="portfolio__image" src="./images/portfolio-image3.png" alt="Скрин лэндинга Braun">
+        <a class="portfolio__link" href="#">Braun Landing Page - Concept</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer" id="contacts">
+    <h2 class="section-title footer__title">Contacts</h2>
+    <p class="main-text footer__subtitle">Want to know more or just chat? You&NonBreakingSpace;are&NonBreakingSpace;welcome!</p>
+
+    <!-- Добавить кнопку -->
+
+    <ul class="list footer__list">
+      <li>
+        <a class="link footer__link" href="#">
+          <img class="footer__social-logo" src="./images/social-1.png" alt="#">
+        </a>
+      </li>
+
+      <li>
+        <a class="link footer__link" href="#">
+          <img class="footer__social-logo" src="./images/social-2.png" alt="#">
+        </a>
+      </li>
+
+      <li>
+        <a class="link footer__link" href="#">
+          <img class="footer__social-logo" src="./images/social-3.png" alt="#">
+        </a>
+      </li>
+
+      <li>
+        <a class="link footer__link" href="#">
+          <img class="footer__social-logo" src="./images/social-4.png" alt="#">
+        </a>
+      </li>
+    </ul>
+
+    <p class="footer__social-text">Like me on LinkedIn,&NonBreakingSpace;Instagram,&NonBreakingSpace;Behance,&NonBreakingSpace;Dribble</p>
+  </footer>
+</body>
+</html>

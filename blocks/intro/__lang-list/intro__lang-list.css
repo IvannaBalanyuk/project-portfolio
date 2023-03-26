@@ -1,0 +1,8 @@
+.intro__lang-list {
+  grid-area: lang-list;
+  justify-self: end;
+  align-content: flex-start;
+  width: max-content;
+
+  transform: rotate(-90deg) translateY(30px);
+}

@@ -1,0 +1,14 @@
+.skills__app-name {
+  display: block;
+  width: 90px;
+  aspect-ratio: 1/1;
+  margin: 0;
+  padding: 20px 0 0;
+  box-sizing: border-box;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
